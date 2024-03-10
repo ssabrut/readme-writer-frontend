@@ -3,5 +3,5 @@ import AuthForm from '@/components/AuthForm.vue';
 </script>
 
 <template>
-    <AuthForm title="Sign in to your account" />
+    <AuthForm title="Create an account" />
 </template>
