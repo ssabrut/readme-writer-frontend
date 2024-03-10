@@ -1,6 +1,10 @@
+<script setup>
+import { RouterLink } from 'vue-router'
+</script>
+
 <template>
     <header>
-        <nav class="bg-white border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800">
+        <nav class="bg-white border-gray-200 px-4 py-2.5">
             <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
                 <a href="https://flowbite.com" class="flex items-center">
                     <img src="https://flowbite.com/docs/images/logo.svg" class="mr-3 h-6 sm:h-9" alt="Flowbite Logo" />
@@ -8,11 +12,11 @@
                 </a>
                 <div class="flex items-center lg:order-2">
                     <RouterLink
-                        class="text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-4 py-2 mr-2"
+                        class="text-gray-900 bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-bold rounded-lg text-sm px-4 py-2 mr-2"
                         to="/login">Log In</RouterLink>
-                    <RouterLink
+                    <!-- <RouterLink
                         class="text-white bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-4 py-2 mr-2"
-                        to="/register">Register</RouterLink>
+                        to="/register">Register</RouterLink> -->
                     <button data-collapse-toggle="mobile-menu-2" type="button"
                         class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
                         aria-controls="mobile-menu-2" aria-expanded="false">
